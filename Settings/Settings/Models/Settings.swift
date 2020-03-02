@@ -17,13 +17,13 @@ import UIKit
 
 class Setting {
     
-    let settingTime: String
+    let settingName: String
     let icon: UIImage
     var isOn: Bool
     
     init (settingTime: String, icon: UIImage, isOn: Bool) {
     
-    self.settingTime = settingTime
+    self.settingName = settingTime
     self.icon = icon
     self.isOn = isOn
     }
