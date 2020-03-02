@@ -19,7 +19,7 @@ class Setting {
     
     let settingTime: String
     let icon: UIImage
-    let isOn: Bool
+    var isOn: Bool
     
     init (settingTime: String, icon: UIImage, isOn: Bool) {
     
